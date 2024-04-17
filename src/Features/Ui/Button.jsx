@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 const Button = ({ children, disabled, to, type, onClick }) => {
   const baseYellow =
     'inline-block rounded-full bg-yellow-400 text-sm font-semibold uppercase tracking-wide text-stone-50 transition-colors duration-300 hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed ';
-  // const baseGreen = ''
   const styles = {
     primaryYellow: baseYellow + ' px-4 py-3 md:px-6 md:py-4',
     smallYellow: baseYellow + ' px-4 py-2 sm:px-5 sm:py-2.5 text-xs',

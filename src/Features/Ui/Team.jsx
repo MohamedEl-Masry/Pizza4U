@@ -13,14 +13,14 @@ const Team = () => {
         </div>
         <div className="absolute right-1/3  top-36 hidden animate-fade-left animate-duration-[3000ms] animate-once md:block">
           <img
-            src="../assets/onion.png"
+            src="./src/assets/onion.png"
             alt="onion"
             className="w-3/5 lg:w-auto"
           />
         </div>
         <div className="absolute bottom-16 right-7 hidden animate-fade-left animate-duration-[3000ms] animate-once md:block">
           <img
-            src="../assets/tomato.png"
+            src="./src/assets/tomato.png"
             alt="tomato"
             className="w-3/5 lg:w-auto"
           />
@@ -36,7 +36,7 @@ const Team = () => {
             </p>
           </div>
           <div className=" mt-10 animate-fade-left animate-duration-[3000ms] animate-once md:mt-0 md:w-1/3">
-            <img src="../assets/photo-3.png" alt="photo" />
+            <img src="./src/assets/photo-3.png" alt="photo" />
           </div>
         </div>
       </section>
@@ -45,7 +45,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-1.jpg"
+                src="./src/assets/team-1.jpg"
                 alt="team-1"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -73,7 +73,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-2.jpg"
+                src="./src/assets/team-2.jpg"
                 alt="team-2"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -101,7 +101,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-3.jpg"
+                src="./src/assets/team-3.jpg"
                 alt="team-3"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -131,7 +131,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-4.jpg"
+                src="./src/assets/team-4.jpg"
                 alt="team-4"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -159,7 +159,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-5.jpg"
+                src="./src/assets/team-5.jpg"
                 alt="team-5"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -187,7 +187,7 @@ const Team = () => {
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/team-6.jpg"
+                src="./src/assets/team-6.jpg"
                 alt="team-6"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -227,7 +227,7 @@ const Team = () => {
           <div className="">
             <div className="cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/skill-img-1.jpg"
+                src="./src/assets/skill-img-1.jpg"
                 alt="skill1"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -245,7 +245,7 @@ const Team = () => {
           <div className="">
             <div className="cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/skill-img-2.jpg"
+                src="./src/assets/skill-img-2.jpg"
                 alt="skill2"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />
@@ -263,7 +263,7 @@ const Team = () => {
           <div className="">
             <div className="cursor-pointer overflow-hidden rounded-[40px]">
               <img
-                src="../assets/skill-img-3.jpg"
+                src="./src/assets/skill-img-3.jpg"
                 alt="skill3"
                 className="rounded-[40px] duration-500 hover:scale-110"
               />

@@ -10,7 +10,7 @@ const Map = () => {
             />
             <Marker position={[30.0298, 31.4677]}>
                 <Popup >
-                    <img src="../assets/Pizza-Logo.png" alt="logo"/>
+                    <img src="./src/assets/Pizza-Logo.png" alt="logo"/>
                 </Popup>
             </Marker>
         </MapContainer>

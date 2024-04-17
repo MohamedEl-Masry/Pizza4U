@@ -1,7 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './Features/Ui/Home';
 import Error from './Features/Ui/Error';
-
 import Menu, { loader as menuLoader } from './Features/Menu/Menu';
 import Order, { loader as orderLoader } from './Features/Order/Order';
 import Cart from './Features/Cart/Cart';

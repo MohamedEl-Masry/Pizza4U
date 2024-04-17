@@ -10,7 +10,7 @@ const Footer = () => {
 
           <div className=" flex flex-col justify-center my-5 md:my-0 md:ps-4 animate-fade-down animate-duration-[3000ms] animate-delay-[2000ms]">
             <div className="md:mt-0 mt-2">
-              <img src="../assets/Pizza-Logo.png" alt="logo" className="w-1/2 md:w-2/3 mx-auto"/>
+              <img src="./src/assets/Pizza-Logo.png" alt="logo" className="w-1/2 md:w-2/3 mx-auto"/>
             </div>
             <div className="text-base font-semibold mt-5 text-stone-600">
               <p>

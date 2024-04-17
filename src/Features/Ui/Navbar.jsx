@@ -48,7 +48,7 @@ export default function Navbar() {
                   <Link to="/">
                     <img
                       className="h-[50px] sm:h-[60px] md:h-[70px]"
-                      src="../assets/Pizza-Logo.png"
+                      src="./src/assets/Pizza-Logo.png"
                       alt="logo Company"
                     />
                   </Link>

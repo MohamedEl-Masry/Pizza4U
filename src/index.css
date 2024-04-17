@@ -14,7 +14,6 @@
     --c3: #60b99a;
     --c4: #554236;
     /**/
-
     width: 180px; /* control the size */
     aspect-ratio: 8/5;
     --_g: no-repeat radial-gradient(#000 68%, #0000 71%);

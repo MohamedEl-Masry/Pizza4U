@@ -12,9 +12,6 @@ const About = () => {
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
-  // function handleScroll(){
-  //   const animatedSection = document.querySelectorAll('.animated-section')
-  // }
 
   return (
     <>
@@ -50,7 +47,7 @@ const About = () => {
                 </p>
                 <div className="pt-12 ">
                   <img
-                    src="../assets/abt-img-1.jpg"
+                    src="./src/assets/abt-img-1.jpg"
                     alt="abt-img"
                     className="rounded-[40px]"
                   />
@@ -60,7 +57,7 @@ const About = () => {
                 <h5 className="mb-4 text-xl font-semibold text-stone-700">
                   Our Journey
                 </h5>
-                <p className="  text-sm font-normal  text-stone-400 sm:text-base sm:font-medium lg:mb-5">
+                <p className=" text-sm font-normal  text-stone-400 sm:text-base sm:font-medium lg:mb-5">
                   Lorem ipsum dolor sit amet, consectetur omni adipisicing elit,
                   sed do eiusmod tempor sol incididunt ut labore et
                   exercitation.
@@ -68,12 +65,12 @@ const About = () => {
                 <h5 className="mb-4 pt-12 text-xl font-semibold text-stone-700">
                   Food and Fun
                 </h5>
-                <p className="  text-sm font-normal  text-stone-400 sm:text-base sm:font-medium lg:mb-5">
+                <p className=" text-sm font-normal  text-stone-400 sm:text-base sm:font-medium lg:mb-5">
                   Lorem ipsum dolor sit amet, consectetur omni adipisicing elit,
                   sed do eius exercitation.
                 </p>
                 <div className="pt-5">
-                  <img src="../assets/abt-logo.png" alt="original" />
+                  <img src="./src/assets/abt-logo.png" alt="original" />
                 </div>
               </div>
             </div>
@@ -81,7 +78,7 @@ const About = () => {
 
           <div className=" mt-7 hidden lg:block">
             <img
-              src="../assets/abt-img-2.jpg"
+              src="./src/assets/abt-img-2.jpg"
               alt="abt-img"
               className="h-full animate-fade-left rounded-[40px] object-cover animate-duration-[3000ms] animate-once"
             />
@@ -97,7 +94,7 @@ const About = () => {
                 : 'absolute -right-16 top-0'
             }
           >
-            <img src="../assets/strength-vacter.png" alt="" />
+            <img src="./src/assets/strength-vacter.png" alt="" />
           </div>
           <div
             className={
@@ -122,7 +119,7 @@ const About = () => {
           >
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="../assets/all-kinds-of-foods.png" alt="" />
+                <img src="./src/assets/all-kinds-of-foods.png" alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 All kinds of Foods
@@ -134,7 +131,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="../assets/fresh-foods.png" alt="" />
+                <img src="./src/assets/fresh-foods.png" alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 Fresh Foods
@@ -146,7 +143,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="../assets/best-taste.png" alt="" />
+                <img src="./src/assets/best-taste.png" alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 Best Taste
@@ -158,7 +155,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="../assets/on-time-delivery.png" alt="" />
+                <img src="./src/assets/on-time-delivery.png" alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 On Time Delivery
@@ -173,7 +170,7 @@ const About = () => {
       </section>
       <section className="-mx-5 px-5 py-20 sm:px-16 bg-white relative">
         <div className="absolute -top-4 md:top-10 w-16 sm:w-24 left-0">
-          <img src="../assets/leaf.png" alt="leaf" />
+          <img src="./src/assets/leaf.png" alt="leaf" />
         </div>
         <div className="">
         <div

@@ -11,7 +11,7 @@ const Carousel = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000, // وقت الانتظار بالميلي ثانية (5 ثواني)
+    autoplaySpeed: 5000, 
     responsive: [
       {
         breakpoint: 1024,
@@ -47,7 +47,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="../assets/client-1.jpg"
+                src="./src/assets/client-1.jpg"
                 alt="Image 1"
                 className="rounded-full"
               />
@@ -65,7 +65,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="../assets/client-2.jpg"
+                src="./src/assets/client-2.jpg"
                 alt="Image 2"
                 className="rounded-full"
               />
@@ -83,7 +83,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="../assets/client-3.jpg"
+                src="./src/assets/client-3.jpg"
                 alt="Image 3"
                 className="rounded-full"
               />
@@ -101,7 +101,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="../assets/client-4.jpg"
+                src="./src/assets/client-4.jpg"
                 alt="Image 4"
                 className="rounded-full"
               />
@@ -115,7 +115,7 @@ const Carousel = () => {
             </div>
           </div>
         </div>
-        {/* Add more slides as needed */}
+
       </Slider>
     </div>
   );

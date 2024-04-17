@@ -1,4 +1,3 @@
-
 import Footer from './Footer';
 import LinkButton from './LinkButton';
 
@@ -13,21 +12,21 @@ const Blog = () => {
         </div>
         <div className="absolute right-[80%] top-96 animate-fade-left animate-duration-[3000ms] animate-once  md:right-[38%] md:top-36 md:block lg:right-[40%] 2xl:right-[39%]">
           <img
-            src="../assets/banner-leaf.png"
+            src="./src/assets/banner-leaf.png"
             alt="leaf"
             className="w-3/5 lg:w-auto"
           />
         </div>
         <div className="absolute -right-5 bottom-10 flex animate-fade-left justify-end  animate-duration-[3000ms] animate-once md:bottom-16 ">
           <img
-            src="../assets/book-jamun.png"
+            src="./src/assets/book-jamun.png"
             alt="jamun"
             className="w-2/5 md:w-3/5 lg:w-4/5"
           />
         </div>
         <div className="absolute -right-5 top-7 hidden animate-fade-left justify-end animate-duration-[3000ms] animate-once md:flex">
           <img
-            src="../assets/book-leaf.png"
+            src="./src/assets/book-leaf.png"
             alt="leaf"
             className="w-3/5 lg:w-4/5"
           />
@@ -43,7 +42,7 @@ const Blog = () => {
             </p>
           </div>
           <div className=" me-7 mt-10 animate-fade-left animate-duration-[3000ms] animate-once md:mt-0 md:w-2/5">
-            <img src="../assets/reservation-pizza.png" alt="pizza" />
+            <img src="./src/assets/reservation-pizza.png" alt="pizza" />
           </div>
         </div>
       </section>
@@ -59,7 +58,7 @@ const Blog = () => {
         <div className="mt-14 flex justify-center ">
           <div className="overflow-hidden rounded-[40px] ">
             <img
-              src="../assets/blog-detail-1.jpg"
+              src="./src/assets/blog-detail-1.jpg"
               alt="blog1"
               className="min-h-[230px] rounded-[40px] duration-500 hover:scale-110"
             />
@@ -100,7 +99,7 @@ const Blog = () => {
             <div className="flex justify-center animate-fade-right animate-duration-[3000ms] animate-delay-[2000ms]">
               <div className="overflow-hidden rounded-[40px]">
                 <img
-                  src="../assets/blog-detail-2.jpg"
+                  src="./src/assets/blog-detail-2.jpg"
                   alt="blog2"
                   className="rounded-[40px] duration-500 hover:scale-110"
                 />
@@ -109,7 +108,7 @@ const Blog = () => {
             <div className="flex justify-center animate-fade-left animate-duration-[3000ms] animate-delay-[2000ms]">
               <div className="overflow-hidden rounded-[40px]">
                 <img
-                  src="../assets/blog-detail-3.jpg"
+                  src="./src/assets/blog-detail-3.jpg"
                   alt="blog3"
                   className="rounded-[40px] duration-500 hover:scale-110"
                 />
