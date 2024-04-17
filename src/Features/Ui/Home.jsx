@@ -46,7 +46,7 @@ function Home() {
         <img src="../../assets/black-jamun.png" alt="black-jamun" />
       </div>
       <div className="absolute bottom-3 right-40 w-2/12 sm:right-5 sm:w-3/5 ">
-        <img src="/assets/onion.png" alt="onion" className="m-auto" />
+        <img src="./assets/onion.png" alt="onion" className="m-auto" />
       </div>
     </div>
   );
