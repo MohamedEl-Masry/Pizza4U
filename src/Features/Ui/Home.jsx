@@ -32,11 +32,11 @@ function Home() {
       </div>
       <div className=" relative ms-2 w-3/5 place-self-center ">
         <div className="mx-auto  sm:w-full sm:pt-5">
-          <img src="/assets/banner-img.png " alt="pizza " />
+          <img src="./../assets/banner-img.png " alt="pizza " />
         </div>
         <div>
           <img
-            src="/assets/home-leaf.png"
+            src="./../assets/home-leaf.png"
             alt="home-leaf"
             className="absolute -right-1 top-0 -z-10 w-3/5 sm:-right-5 sm:pt-2 xl:w-auto"
           />
