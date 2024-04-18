@@ -1,4 +1,6 @@
 import Button from "./Button";
+import errorPng from "../../assets/error-img.png";
+import errorIcon from "../../assets/error-top.png";
 
 function NotFound() {
 
@@ -7,11 +9,11 @@ function NotFound() {
     <div className="relative">
       <div className=" flex  justify-center pt-44">
         <div className="w-1/2 md:w-3/4 lg:w-auto">
-          <img src="../src/assets/error-img.png" alt="404" />
+          <img src={errorPng} alt="404" />
         </div>
         <div className="absolute sm:right-[28%] md:right-[25%] lg:right-[35%] sm:top-32 right-[21%] top-32">
           <img
-            src="../src/assets/error-top.png"
+            src={errorIcon}
             alt="icon"
             className="transition duration-1000 ease-in-out hover:scale-125  md:w-auto w-1/2 "
           />

@@ -1,5 +1,13 @@
 import Footer from './Footer';
 import LinkButton from './LinkButton';
+import banner_leaf from '../../assets/banner_leaf.png';
+import book_jamun from '../../assets/book_jamun.png';
+import book_leaf from '../../assets/book_leaf.png';
+import reservation_pizza from '../../assets/reservation_pizza.png';
+import blog_detail1 from '../../assets/blog_detail_1.jpg';
+import blog_detail2 from '../../assets/blog_detail_2.jpg';
+import blog_detail3 from '../../assets/blog_detail_3.jpg';
+
 
 const Blog = () => {
   return (
@@ -12,21 +20,21 @@ const Blog = () => {
         </div>
         <div className="absolute right-[80%] top-96 animate-fade-left animate-duration-[3000ms] animate-once  md:right-[38%] md:top-36 md:block lg:right-[40%] 2xl:right-[39%]">
           <img
-            src="./src/assets/banner-leaf.png"
+            src={banner_leaf}
             alt="leaf"
             className="w-3/5 lg:w-auto"
           />
         </div>
         <div className="absolute -right-5 bottom-10 flex animate-fade-left justify-end  animate-duration-[3000ms] animate-once md:bottom-16 ">
           <img
-            src="./src/assets/book-jamun.png"
+            src={book_jamun}
             alt="jamun"
             className="w-2/5 md:w-3/5 lg:w-4/5"
           />
         </div>
         <div className="absolute -right-5 top-7 hidden animate-fade-left justify-end animate-duration-[3000ms] animate-once md:flex">
           <img
-            src="./src/assets/book-leaf.png"
+            src={book_leaf}
             alt="leaf"
             className="w-3/5 lg:w-4/5"
           />
@@ -42,7 +50,7 @@ const Blog = () => {
             </p>
           </div>
           <div className=" me-7 mt-10 animate-fade-left animate-duration-[3000ms] animate-once md:mt-0 md:w-2/5">
-            <img src="./src/assets/reservation-pizza.png" alt="pizza" />
+            <img src={reservation_pizza} alt="pizza" />
           </div>
         </div>
       </section>
@@ -58,7 +66,7 @@ const Blog = () => {
         <div className="mt-14 flex justify-center ">
           <div className="overflow-hidden rounded-[40px] ">
             <img
-              src="./src/assets/blog-detail-1.jpg"
+              src={blog_detail1}
               alt="blog1"
               className="min-h-[230px] rounded-[40px] duration-500 hover:scale-110"
             />
@@ -99,7 +107,7 @@ const Blog = () => {
             <div className="flex justify-center animate-fade-right animate-duration-[3000ms] animate-delay-[2000ms]">
               <div className="overflow-hidden rounded-[40px]">
                 <img
-                  src="./src/assets/blog-detail-2.jpg"
+                  src={blog_detail2}
                   alt="blog2"
                   className="rounded-[40px] duration-500 hover:scale-110"
                 />
@@ -108,7 +116,7 @@ const Blog = () => {
             <div className="flex justify-center animate-fade-left animate-duration-[3000ms] animate-delay-[2000ms]">
               <div className="overflow-hidden rounded-[40px]">
                 <img
-                  src="./src/assets/blog-detail-3.jpg"
+                  src={blog_detail3}
                   alt="blog3"
                   className="rounded-[40px] duration-500 hover:scale-110"
                 />

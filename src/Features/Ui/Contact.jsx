@@ -2,6 +2,13 @@ import { Link } from 'react-router-dom';
 import Map from './Map';
 import LinkButton from './LinkButton';
 import Footer from './Footer';
+import daily_fresh from '../../assets/daily_fresh.png';
+import contact from '../../assets/contact.jpg';
+import pizza_bg from '../../assets/pizza_bg.png';
+
+
+
+
 
 const Contact = () => {
   return (
@@ -29,7 +36,7 @@ const Contact = () => {
         </div>
         <div className="absolute -right-5 bottom-16 flex w-1/2 animate-fade-left justify-end animate-duration-[3000ms]  md:top-14 lg:w-auto ">
           <img
-            src="./src/assets/daily-fresh.png"
+            src={daily_fresh}
             alt="fresh"
             className="rotate-180"
           />
@@ -95,14 +102,14 @@ const Contact = () => {
           <div className="shadow-2xl lg:flex">
             <div className="-mx-5 sm:mx-0 lg:w-1/2 ">
               <img
-                src="./src/assets/contact.jpg"
+                src={contact}
                 alt="contact"
                 className="h-[500px] w-full  lg:h-[630px]"
               />
             </div>
             <div className="relative -mx-5 h-auto bg-black sm:mx-0 lg:w-1/2">
               <img
-                src="./src/assets/pizza-bg.png"
+                src={pizza_bg}
                 alt="pizza-bg"
                 className="h-[620px]"
               />

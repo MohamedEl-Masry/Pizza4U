@@ -2,6 +2,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Rating from './Rating';
+import client1 from '../../assets/client_1.jpg';
+import client2 from '../../assets/client_2.jpg';
+import client3 from '../../assets/client_3.jpg';
+import client4 from '../../assets/client_4.jpg';
+
 
 const Carousel = () => {
   const settings = {
@@ -47,7 +52,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="./src/assets/client-1.jpg"
+                src={client1}
                 alt="Image 1"
                 className="rounded-full"
               />
@@ -65,7 +70,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="./src/assets/client-2.jpg"
+                src={client2}
                 alt="Image 2"
                 className="rounded-full"
               />
@@ -83,7 +88,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="./src/assets/client-3.jpg"
+                src={client3}
                 alt="Image 3"
                 className="rounded-full"
               />
@@ -101,7 +106,7 @@ const Carousel = () => {
           <div className='bg-white py-8 px-6 rounded-3xl border border-stone-300 drop-shadow-md'>
             <div className='flex justify-center pb-3'>
               <img
-                src="./src/assets/client-4.jpg"
+                src={client4}
                 alt="Image 4"
                 className="rounded-full"
               />

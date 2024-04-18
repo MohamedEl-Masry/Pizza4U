@@ -1,6 +1,16 @@
 import MyCarousel from './Carousel';
 import Footer from './Footer';
 import LinkButton from './LinkButton';
+import abt_img_1 from '../../assets/abt_img_1.jpg';
+import abt_logo from '../../assets/abt_logo.png';
+import abt_img_2 from '../../assets/abt_img_2.jpg';
+import strength_vacter from '../../assets/strength_vacter.png';
+import all_kinds_of_foods from '../../assets/all_kinds_of_foods.png';
+import fresh_foods from '../../assets/fresh_foods.png';
+import best_taste from '../../assets/best_taste.png';
+import on_time_delivery from '../../assets/on_time_delivery.png';
+import leaf from '../../assets/leaf.png';
+
 const About = () => {
   function isElementInVioport(el) {
     const rect = el.getBoundingClintRect();
@@ -47,7 +57,7 @@ const About = () => {
                 </p>
                 <div className="pt-12 ">
                   <img
-                    src="./src/assets/abt-img-1.jpg"
+                    src={abt_img_1}
                     alt="abt-img"
                     className="rounded-[40px]"
                   />
@@ -70,7 +80,7 @@ const About = () => {
                   sed do eius exercitation.
                 </p>
                 <div className="pt-5">
-                  <img src="./src/assets/abt-logo.png" alt="original" />
+                  <img src={abt_logo} alt="original" />
                 </div>
               </div>
             </div>
@@ -78,7 +88,7 @@ const About = () => {
 
           <div className=" mt-7 hidden lg:block">
             <img
-              src="./src/assets/abt-img-2.jpg"
+              src={abt_img_2}
               alt="abt-img"
               className="h-full animate-fade-left rounded-[40px] object-cover animate-duration-[3000ms] animate-once"
             />
@@ -94,7 +104,7 @@ const About = () => {
                 : 'absolute -right-16 top-0'
             }
           >
-            <img src="./src/assets/strength-vacter.png" alt="" />
+            <img src={strength_vacter} alt="" />
           </div>
           <div
             className={
@@ -119,7 +129,7 @@ const About = () => {
           >
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="./src/assets/all-kinds-of-foods.png" alt="" />
+                <img src={all_kinds_of_foods} alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 All kinds of Foods
@@ -131,7 +141,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="./src/assets/fresh-foods.png" alt="" />
+                <img src={fresh_foods} alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 Fresh Foods
@@ -143,7 +153,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="./src/assets/best-taste.png" alt="" />
+                <img src={best_taste} alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 Best Taste
@@ -155,7 +165,7 @@ const About = () => {
             </div>
             <div className="px-5 md:px-0">
               <div className="w-11 md:w-auto">
-                <img src="./src/assets/on-time-delivery.png" alt="" />
+                <img src={on_time_delivery} alt="" />
               </div>
               <h5 className="mb-4 pt-8 text-xl font-semibold text-stone-700">
                 On Time Delivery
@@ -168,32 +178,33 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="-mx-5 px-5 py-20 sm:px-16 bg-white relative">
-        <div className="absolute -top-4 md:top-10 w-16 sm:w-24 left-0">
-          <img src="./src/assets/leaf.png" alt="leaf" />
+      <section className="relative -mx-5 bg-white px-5 py-20 sm:px-16">
+        <div className="absolute -top-4 left-0 w-16 sm:w-24 md:top-10">
+          <img src={leaf} alt="leaf" />
         </div>
         <div className="">
-        <div
+          <div
             className={
               isElementInVioport
-                ? 'animate-fade-up pt-6 md:ps-3 pb-14 animate-delay-[2500ms] animate-duration-[5000ms]'
+                ? 'animate-fade-up pb-14 pt-6 animate-delay-[2500ms] animate-duration-[5000ms] md:ps-3'
                 : 'pb-14 pt-5 md:ps-3'
             }
           >
             <h3 className="line_red2 relative mt-7 text-lg font-bold text-red-500 sm:text-2xl">
-            Customer Feedback
+              Customer Feedback
             </h3>
-            <h1 className="text-stone-8000 my-3 w-3/4 text-2xl font-black sm:my-5 sm:w-auto sm:text-3xl text-nowrap">
-            Client Testimonials
+            <h1 className="text-stone-8000 my-3 w-3/4 text-nowrap text-2xl font-black sm:my-5 sm:w-auto sm:text-3xl">
+              Client Testimonials
             </h1>
           </div>
         </div>
         <div className="animate-fade-up animate-delay-[2500ms] animate-duration-[5000ms]">
-        <MyCarousel />
+          <MyCarousel />
         </div>
       </section>
-      <footer><Footer/></footer>
-
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

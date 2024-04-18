@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import UserName from '../User/UserName';
 import SearchOrder from '../Order/SearchOrder';
 import { getTotalCartQuantity } from '../Cart/cartSlice';
+import pizza_logo from '../../assets/Pizza-Logo.png';
 
 const navigation = [
   { name: 'HOME', href: '/', current: true },
@@ -48,7 +49,7 @@ export default function Navbar() {
                   <Link to="/">
                     <img
                       className="h-[50px] sm:h-[60px] md:h-[70px]"
-                      src="./src/assets/Pizza-Logo.png"
+                      src={pizza_logo}
                       alt="logo Company"
                     />
                   </Link>

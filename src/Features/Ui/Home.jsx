@@ -1,6 +1,10 @@
 import { useSelector } from 'react-redux';
 import CreateUser from '../User/CreateUser';
 import Button from './Button';
+import banner from '../../assets/banner_img.png'
+import homeLeaf from '../../assets/home_leaf.png'
+import blackJamun from '../../assets/black_jamun.png'
+import onion from '../../assets/onion.png'
 
 function Home() {
   const userName = useSelector((state) => state.user.userName);
@@ -32,21 +36,21 @@ function Home() {
       </div>
       <div className=" relative ms-2 w-3/5 place-self-center animate-fade-left animate-duration-[3000ms]">
         <div className="mx-auto  sm:w-full sm:pt-5">
-          <img src="./src/assets/banner-img.png " alt="pizza " />
+          <img src={banner} alt="pizza " />
         </div>
         <div>
           <img
-            src="./src/assets/home-leaf.png"
+            src={homeLeaf}
             alt="home-leaf"
             className="absolute -right-1 top-0 -z-10 w-3/5 sm:-right-5 sm:pt-2 xl:w-auto"
           />
         </div>
       </div>
       <div className="absolute bottom-3 right-0  w-2/12 rotate-180 sm:w-1/5 ">
-        <img src="./src/assets/black-jamun.png" alt="black-jamun" />
+        <img src={blackJamun} alt="black-jamun" />
       </div>
       <div className="absolute bottom-3 right-40 w-2/12 sm:right-5 sm:w-3/5 animate-fade-left animate-duration-[3000ms]">
-        <img src="./src/assets/onion.png" alt="onion" className="m-auto" />
+        <img src={onion} alt="onion" className="m-auto" />
       </div>
     </div>
   );
