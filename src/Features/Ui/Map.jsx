@@ -1,4 +1,7 @@
+import Pizza_Logo from '../../assets/Pizza-Logo.png';
+
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+
 const Map = () => {
   return (
     <> 
@@ -10,7 +13,7 @@ const Map = () => {
             />
             <Marker position={[30.0298, 31.4677]}>
                 <Popup >
-                    <img src="./src/assets/Pizza-Logo.png" alt="logo"/>
+                    <img src={Pizza_Logo}/>
                 </Popup>
             </Marker>
         </MapContainer>

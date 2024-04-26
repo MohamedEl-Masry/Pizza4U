@@ -111,13 +111,13 @@
 }
 
 .bg-img-cart {
-  background-image: url(../assets/Illustration-2.png);
+  background-image: url(./assets/Illustration_2.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .bg-img-createOrder {
-  background-image: url(../assets/Illustration-1.png);
+  background-image: url(./assets/Illustration_1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -125,7 +125,7 @@
 
 @media only screen and (min-width: 567px) {
   .bg-img-order {
-    background-image: url(../assets/Illustration-3.png);
+    background-image: url(./assets/Illustration_3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 40%;
@@ -133,7 +133,7 @@
 }
 @media only screen and (max-width: 567px) {
   .bg-img-order {
-    background-image: url(../assets/Illustration-3.png);
+    background-image: url(./assets/Illustration_3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;

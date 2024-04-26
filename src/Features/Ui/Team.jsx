@@ -56,7 +56,7 @@ const Team = () => {
         </div>
       </section>
       <section className="-mx-5 bg-white px-5 pb-8 pt-16 sm:px-16">
-        <div className="grid gap-x-10 gap-y-14 pt-5 md:grid-cols-3 md:gap-y-0 md:pt-12">
+        <div className="grid gap-x-10 gap-y-14 pt-5 md:grid-cols-3 md:gap-y-0 md:pt-12 animate-fade-down animate-duration-[3000ms]">
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
@@ -142,7 +142,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="mt-16 grid gap-x-10 gap-y-14 md:grid-cols-3 md:gap-y-0">
+        <div className="mt-16 grid gap-x-10 gap-y-14 md:grid-cols-3 md:gap-y-0 animate-fade-up animate-duration-[3000ms]">
           <div className="social-team">
             <div className="relative cursor-pointer overflow-hidden rounded-[40px]">
               <img
@@ -238,7 +238,7 @@ const Team = () => {
             Team of Professionals
           </h1>
         </div>
-        <div className="mt-16 grid gap-x-10 gap-y-14 md:grid-cols-3 md:gap-y-0">
+        <div className="mt-16 grid gap-x-10 gap-y-14 md:grid-cols-3 md:gap-y-0 animate-fade-up animate-duration-[3000ms]">
           <div className="">
             <div className="cursor-pointer overflow-hidden rounded-[40px]">
               <img

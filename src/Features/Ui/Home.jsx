@@ -49,7 +49,7 @@ function Home() {
       <div className="absolute bottom-3 right-0  w-2/12 rotate-180 sm:w-1/5 ">
         <img src={blackJamun} alt="black-jamun" />
       </div>
-      <div className="absolute bottom-3 right-40 w-2/12 sm:right-5 sm:w-3/5 animate-fade-left animate-duration-[3000ms]">
+      <div className="absolute bottom-3 right-40 w-2/12 sm:right-5 sm:w-3/5 ">
         <img src={onion} alt="onion" className="m-auto" />
       </div>
     </div>

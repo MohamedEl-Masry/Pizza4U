@@ -10,7 +10,7 @@ const AppLayOut = () => {
     <div className=" h-screen ">
       {isLoading && <Loader />}
       <Navbar />
-      <div className="h-full overflow-y-auto ">
+      <div className="h-full overflow-y-auto overflow-x-hidden">
         <main className="mx-5 mt-20 mb-14">
           <Outlet />
         </main>
